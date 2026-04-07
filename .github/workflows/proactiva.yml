@@ -1,9 +1,9 @@
 name: Enquesta Proactiva
 
 on:
+  push:
   schedule:
     - cron: "*/5 * * * *"
-      timezone: "Europe/Madrid"
   workflow_dispatch:
 
 jobs:
