@@ -2,7 +2,7 @@ name: Enquesta Proactiva
 
 on:
   schedule:
-    - cron: "7 6 * * *"
+    - cron: "02 6 * * *"
       timezone: "Europe/Madrid"
   workflow_dispatch:
 
